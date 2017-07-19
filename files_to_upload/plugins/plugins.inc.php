@@ -153,7 +153,7 @@ function getPluginProperties() {
 	else                                          { $ckeditor_language = "en"; }
 
 	$pluginProperties["ckeditor"]["use"]                     = "yes";
-	$pluginProperties["ckeditor"]["label"]                   = "CKEditor (WYSIWYG)";
+	$pluginProperties["ckeditor"]["label"]                   = "CKEditor (HTMLエディタ1)";
 	$pluginProperties["ckeditor"]["directory"]               = "ckeditor";
 	$pluginProperties["ckeditor"]["type"]                    = "textarea";
 	$pluginProperties["ckeditor"]["browsers"][1]             = "IE";
@@ -204,7 +204,7 @@ function getPluginProperties() {
 	else                                          { $tinymce_language = "en"; }
 
 	$pluginProperties["tinymce"]["use"]                      = "yes";
-	$pluginProperties["tinymce"]["label"]                    = "TinyMCE (WYSIWYG)";
+	$pluginProperties["tinymce"]["label"]                    = "TinyMCE (HTMLエディタ2)";
 	$pluginProperties["tinymce"]["directory"]                = "tinymce";
 	$pluginProperties["tinymce"]["type"]                     = "textarea";
 	$pluginProperties["tinymce"]["browsers"][1]              = "IE";
@@ -240,7 +240,7 @@ function getPluginProperties() {
 // -------------------------------------------------------------------------
 
 	$pluginProperties["ace"]["use"]                    = "yes";
-	$pluginProperties["ace"]["label"]                  = "Ace (code editor)";
+	$pluginProperties["ace"]["label"]                  = "Ace (コード エディタ)";
 	$pluginProperties["ace"]["directory"]              = "ace";
 	$pluginProperties["ace"]["type"]                   = "textarea";
 	$pluginProperties["ace"]["browsers"][1]            = "IE";

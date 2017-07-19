@@ -68,7 +68,7 @@ jQuery(document).ready(function($) {
 	
 	// UI Accordion ------------------------------------------------------ //
 	
-	$( ".accordion" ).accordion();
+	$( ".accordion" ).accordion({ active: 2 });
 		
 //close			
 });
