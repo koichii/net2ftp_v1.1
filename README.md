@@ -1,3 +1,10 @@
+# Fixes for Japanese environment
+#日本語環境用の修正
+
+##編集でUTF-8のファイルが開けなかった問題を修正
+文字コードをデフォルトで UTF-8 に変更
+
+
 # What is Net2ftp?
 Net2ftp is a web based FTP client, written in PHP.
 
